@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CplusplusProgramlamaDili">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="233dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/Geri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/programlamaGiris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Programlamaya Giriş" />
+
+        <TextView
+            android:id="@+id/Degiskenler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Değişkenler ve Veri Türleri" />
+
+        <TextView
+            android:id="@+id/Operatörler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Operatörler" />
+
+        <TextView
+            android:id="@+id/KontrolYapilari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Kontrol Yapıları" />
+
+        <TextView
+            android:id="@+id/Fonksiyonlar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Fonksiyonlar ve Metotlar" />
+
+        <TextView
+            android:id="@+id/Diziler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Diziler ve Koleksiyonlar" />
+
+        <TextView
+            android:id="@+id/Oop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.Nesne Yönelimli Programlama (OOP)" />
+
+        <TextView
+            android:id="@+id/HataYönetimi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8.Hata Yönetimi ve İstisnalar" />
+
+        <TextView
+            android:id="@+id/DosyaIslemleri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.Dosya İşlemleri" />
+
+        <TextView
+            android:id="@+id/VeriTabani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.Veritabanı İşlemleri" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Geri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+</androidx.constraintlayout.widget.ConstraintLayout>
