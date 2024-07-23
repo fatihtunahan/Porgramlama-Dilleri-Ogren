@@ -30,34 +30,44 @@ class CprogramlamaDili : AppCompatActivity() {
         var veriTabani = findViewById<TextView>(R.id.VeriTabani)
 
         programlamaGiris.setOnClickListener(){
-
+            var intent = Intent(this,ProgramlamaGiris2::class.java)
+            startActivity(intent)
         }
         degiskenler.setOnClickListener(){
-
+            var intent = Intent(this,DegiskenlerVeriTurleri2::class.java)
+            startActivity(intent)
         }
         operatörler.setOnClickListener(){
-
+            var intent = Intent(this,Operatorler2::class.java)
+            startActivity(intent)
         }
         kontrolYapilari.setOnClickListener(){
-
+            var intent = Intent(this,KontrolYapilari2::class.java)
+            startActivity(intent)
         }
         fonksiyonlar.setOnClickListener(){
-
+            var intent = Intent(this,Fonksiyonlar2::class.java)
+            startActivity(intent)
         }
         diziler.setOnClickListener(){
-
+            var intent = Intent(this,Diziler2::class.java)
+            startActivity(intent)
         }
         oop.setOnClickListener(){
-
+            var intent = Intent(this,Oop2::class.java)
+            startActivity(intent)
         }
         hataYönetimi.setOnClickListener(){
-
+            var intent = Intent(this,HataYonetimi2::class.java)
+            startActivity(intent)
         }
         dosyaIslem.setOnClickListener (){
-
+            var intent = Intent(this,DosyaIslemleri2::class.java)
+            startActivity(intent)
         }
         veriTabani.setOnClickListener (){
-
+            var intent = Intent(this,VeriTabani2::class.java)
+            startActivity(intent)
         }
 
     }

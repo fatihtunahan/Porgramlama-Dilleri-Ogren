@@ -13,6 +13,36 @@
         android:theme="@style/Theme.ProgramlamaDilleri"
         tools:targetApi="31">
         <activity
+            android:name=".VeriTabani2"
+            android:exported="false" />
+        <activity
+            android:name=".DosyaIslemleri2"
+            android:exported="false" />
+        <activity
+            android:name=".HataYonetimi2"
+            android:exported="false" />
+        <activity
+            android:name=".Oop2"
+            android:exported="false" />
+        <activity
+            android:name=".Diziler2"
+            android:exported="false" />
+        <activity
+            android:name=".Fonksiyonlar2"
+            android:exported="false" />
+        <activity
+            android:name=".KontrolYapilari2"
+            android:exported="false" />
+        <activity
+            android:name=".Operatorler2"
+            android:exported="false" />
+        <activity
+            android:name=".DegiskenlerVeriTurleri2"
+            android:exported="false" />
+        <activity
+            android:name=".ProgramlamaGiris2"
+            android:exported="false" />
+        <activity
             android:name=".VeriTabani"
             android:exported="false" />
         <activity
